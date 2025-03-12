@@ -21,7 +21,12 @@ tag_features_reduced = svd.fit_transform(tag_features)
 
 # Use tag_features_reduced caso queira clusterizar usando tag
 # Use csr_matrix(genres.values) caso queira clusterizar usando o genero
-features = hstack([csr_matrix(genres.values)])
+
+# Caso queira analisar com mais de uma feature, use o hstack
+# features = hstack([csr_matrix(genres.values),tag_features_reduced])
+
+# Caso queira somente usando somente um campo:
+features = csr_matrix(genres.values)
 
 kmeans = KMeans(n_clusters=3, random_state=42)
 
