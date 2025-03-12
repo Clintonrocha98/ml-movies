@@ -15,7 +15,6 @@ O modelo realiza as seguintes etapas:
    - Extrai o ano de lançamento do título do filme.
    - Limpa o título, removendo o ano.
    - Processa as tags dos filmes, agrupando-as por `movieId`.
-   - Calcula a média das avaliações (`rating`) para cada filme.
    - Combina os dados de filmes, avaliações e tags em um único dataframe.
 
 2. **Criação de features**:
