@@ -134,17 +134,3 @@ Exemplo de gráfico gerado:
   - A proximidade entre os pontos pode indicar filmes com características semelhantes.  
 
 ---
-
-## **Próximos passos**  
-
-- **Otimização**:  
-  - Ajustar o número de clusters (`n_clusters`) para melhorar a qualidade do agrupamento.  
-  - Experimentar outros algoritmos de clustering, como DBSCAN ou Hierarchical Clustering.  
-
-- **Melhoria na Visualização**:  
-  - Testar diferentes técnicas de redução de dimensionalidade, como t-SNE ou UMAP.  
-
-- **Expansão**:  
-  - Integrar o modelo em um sistema de recomendação de filmes.  
-
----
